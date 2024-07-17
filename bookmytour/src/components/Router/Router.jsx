@@ -9,7 +9,6 @@ const Router = () => {
         <Routes>
             <Route path="/" element={<Homepage/>} />
             <Route path="/explore" element={<Explore />} />
-            {/* <Route path="*" element={<NoPage />} /> */}
         </Routes>
     </BrowserRouter>  )
 }
