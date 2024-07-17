@@ -1,0 +1,49 @@
+.homecontainer{
+    background-image: url('../../assets/image2.jpeg');
+    height: 847px;
+    object-fit: fill;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Explorecontainer{
+   margin-top: 288px;
+   /* background-color: white; */
+ 
+}
+.buttonstyle1{
+    border: none;
+    background: none;
+    width: 40px;
+}
+.home-sentence1{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.home-sentence2{
+    color: white;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sentence-box{
+    width: 370px;
+    margin-left: 110px;
+}
+.inner-container-home{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px; 
+    border-radius: 8px; 
+    width:1300px; 
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.people-container{
+    width: auto; 
+    max-width: 300px;
+}
+.css-1jnoj1f{
+    width: 120px    ;
+}
