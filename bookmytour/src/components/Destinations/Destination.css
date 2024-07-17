@@ -1,0 +1,55 @@
+.destination-image{
+    width: 60px;
+}
+.carousel-grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .carousel-grid-item {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+  }
+  
+  .location-image {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .enquire-button {
+    background-color: #ff0066;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .enquire-button:hover {
+    background-color: #e6005c;
+  }
+  
+  /* Override the default Bootstrap carousel indicators */
+  .carousel-indicators [data-bs-target] {
+    background-color: black !important;
+    top: -50px !important;
+    height: 5px;
+    border-radius: 10px;
+  } 
+  .carousel-indicators{
+    top:-40px;
+    left: 65%;
+    /* height: 550px; */
+  }
+.destination-container{
+    background-color: rgb(241, 241, 241);
+    padding: 40px;
+}
