@@ -21,9 +21,9 @@ const Header = () => {
             </div>
             <div className='inner-header-container3'>
                 <div>
-                    <Button variant="contained" sx={{marginLeft:'50px'}}>Contact us</Button>
+                    <Button variant="contained" sx={{marginLeft:'50px',backgroundColor:'#ff0066'}}>Contact us</Button>
                 </div>
-                <div style={{marginLeft:'50px'}}>
+                <div style={{marginLeft:'10px'}}>
                     <DropdownButton id="dropdown-basic-button" title="EN" style={{backgroundColor:'black',color:'white'}}>
                         <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
                         <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
