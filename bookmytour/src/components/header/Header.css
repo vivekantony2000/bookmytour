@@ -25,6 +25,7 @@ body{
 .inner-header-container2 button,
 .inner-header-container3 {
   margin: 0 10px;
+  margin-right: 80px;
 }
 
 .buttonstyle {
