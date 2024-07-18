@@ -47,7 +47,7 @@
   }
   
   .footer-logo img {
-    width: 100px; /* Adjust based on your logo size */
+    width: 100px; 
   }
   
   .footer-bottom {
@@ -64,7 +64,6 @@
     margin-right: 10px;
   }
   
-  /* Responsive design */
   @media (max-width: 768px) {
     .footer-container {
       flex-direction: column;

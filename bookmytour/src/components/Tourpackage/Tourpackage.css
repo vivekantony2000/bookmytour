@@ -35,7 +35,6 @@
     background-color: #e6005c;
   }
   
-  /* Override the default Bootstrap carousel indicators */
   .carousel-indicators [data-bs-target] {
     background-color: black !important;
   }
