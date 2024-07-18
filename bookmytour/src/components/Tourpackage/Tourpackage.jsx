@@ -44,15 +44,15 @@ return (
           <Carousel.Item key={slide.id}>
             <div className="carousel-grid">
               {slide.entries.map((entry, entryIdx) => (
-                <div className="carousel-grid-item" key={entryIdx}>
+                <div className="carousel-grid-item1" key={entryIdx}>
                   <img
-                    className="location-image"
+                    className="location-image1"
                     src={entry.image}
                     alt={`Slide ${slide.id}-${entryIdx}`}
                   />
-                  <h3>{entry.location}</h3>
+                  <h5 style={{textAlign:'left',fontWeight:'500'}}>{entry.location}</h5>
                   <p>{entry.price}</p>
-                  <Button variant="outlined" onClick={handleOpenModal} sx={{color:'#ff0066',borderColor:'#ff0066'}}>Enquire Now</Button>
+                  <Button variant="outlined" onClick={handleOpenModal} sx={{color:'#ff0066',borderColor:'#ff0066',width:'140px',borderRadius:'none'}}>Enquire Now</Button>
                 </div>
               ))}
             </div>

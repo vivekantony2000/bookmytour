@@ -8,21 +8,24 @@ import './Destination.css'
 
 const Destination = () => {
     const data = [
-        { image: image3, location: 'Duai', price: '$1000' },
-        { image: image4, location: 'London', price: '$1200' },
-        { image: image5, location: 'Thailand', price: '$800' },
-        { image: image6, location: 'Delhi', price: '$1500' },
+        { image: image3, location: 'Dubai' },
+        { image: image4, location: 'London'},
+        { image: image5, location: 'Thailand' },
+        { image: image6, location: 'Delhi' },
+        { image: image5, location: 'Thailand' },
+        { image: image4, location: 'London'},
+        { image: image6, location: 'Delhi'},
       ];
     const navigate=useNavigate()
   return (
     <div className='destination-container'>
-        <h4>Our Locations</h4>
+      <h4>Our Locations</h4>
       <p>Browse destinations for your next holiday plan</p>
       <div className="carousel-grid2">
         {data.map((entry, index) => (
           <div className="carousel-grid-item" key={index}>
             <img className="destination-image" src={entry.image} alt={entry.location} />
-            <h3>{entry.location}</h3>
+            <h6 className='location-name'>{entry.location}</h6>
             <p>{entry.price}</p>
           </div>
         ))}

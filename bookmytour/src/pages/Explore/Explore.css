@@ -50,7 +50,7 @@
 .search-button {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-  margin-left: -1px; /* Adjusts the overlap between input and button */
+  margin-left: -1px; 
 }
 
 

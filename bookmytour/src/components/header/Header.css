@@ -45,13 +45,11 @@ body{
     color: inherit;
 }
 
-/* Remove background color of the dropdown items */
 .dropdown-item {
     background-color: transparent !important;
     color: inherit;
 }
 
-/* Add styles for hover effect if needed */
 .dropdown-item:hover, .dropdown-item:focus {
     background-color: transparent !important;
     color: inherit;
